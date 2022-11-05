@@ -1,14 +1,15 @@
-import React from "react"
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Card from "./components/Card"
 
 export default function App() {
-            // <Hero />
+    /* 
+    * Firstly, we learnt how to parse variables in a react
+    * My teacher talked about parsing them like how we do in Javascript which won't work because we are using JSX.
+    * 
+    */
+        const firstName = 'sandrine';
+        const LastName = "Dushimimana";
     return (
         <div>
-            <Navbar />
-            <Card />
+            <h1>Hello {firstName} {LastName}</h1>
         </div>
     )
 }
