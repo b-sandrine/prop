@@ -13,5 +13,12 @@ function App() {
     )
 }
 
+function Greeting() {
+    var date = new Date();
+    return (
+        <h1>Hello, It is about { date.getHours() } O'Clock </h1>
+    )
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<Greeting />);
